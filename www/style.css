@@ -1,0 +1,70 @@
+.board {
+	
+}
+
+body {
+	background-color: #669;
+	margin: 80px;
+}
+
+.app {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.restart {
+	font-size: large;
+	border: 1px solid black;
+	background-color: red;
+	margin: 0.7em;
+}
+
+.board>div {
+	display: flex;
+	
+}
+
+.square {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	font-size: 40px;
+	text-align: center;
+}
+
+.piece {
+	cursor: grab;
+}
+
+.piece.white {
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.piece.black {
+	color: black;
+	text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+.piece.moving {
+	opacity: .35;
+}
+
+.light {
+	background-color: #fec;
+}
+
+.dark {
+	background-color: #952;
+}
